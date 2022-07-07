@@ -1,0 +1,120 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/teal_700"
+    tools:context=".MapsActivity">
+
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/inf"
+
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:text="City Name"></TextView>
+
+
+    <TextView
+        android:id="@+id/infocity"
+        android:autoLink="all"
+        android:clickable="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/inf"
+        android:text="Bilgiler"
+        ></TextView>
+    <ImageView
+        android:id="@+id/image"
+        android:src="@drawable/camera"
+        android:layout_width="wrap_content"
+        android:layout_height="301dp"
+        android:layout_below="@id/infocity"
+
+        tools:src="@tools:sample/backgrounds/scenic" />
+    <TextView
+        android:id="@+id/infocity2"
+        android:autoLink="all"
+        android:clickable="true"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_below="@+id/image"
+        android:text="Bilgiler"></TextView>
+    <ImageView
+        android:id="@+id/image2"
+        android:src="@drawable/camera"
+        android:layout_width="wrap_content"
+        android:layout_height="301dp"
+        android:layout_below="@id/infocity2"
+        tools:src="@tools:sample/backgrounds/scenic" />
+    <TextView
+        android:id="@+id/infocity3"
+        android:autoLink="all"
+        android:clickable="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/image2"
+        android:text="Bilgiler"></TextView>
+    <ImageView
+        android:id="@+id/image3"
+        android:src="@drawable/camera"
+        android:layout_width="wrap_content"
+        android:layout_height="301dp"
+        android:layout_below="@id/infocity3"
+        tools:src="@tools:sample/backgrounds/scenic" />
+    <TextView
+        android:id="@+id/infocity4"
+        android:autoLink="all"
+        android:clickable="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/image3"
+        android:text="Bilgiler"></TextView>
+    <ImageView
+        android:id="@+id/image4"
+        android:src="@drawable/camera"
+        android:layout_width="wrap_content"
+        android:layout_height="301dp"
+        android:layout_below="@id/infocity4"
+        tools:src="@tools:sample/backgrounds/scenic" />
+    <TextView
+        android:id="@+id/infocity5"
+        android:autoLink="all"
+        android:clickable="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/image4"
+        android:text="Bilgiler"></TextView>
+    <ImageView
+        android:id="@+id/image5"
+        android:src="@drawable/camera"
+        android:layout_width="wrap_content"
+        android:layout_height="301dp"
+        android:layout_below="@id/infocity5"
+        tools:src="@tools:sample/backgrounds/scenic" />
+    <TextView
+        android:id="@+id/infocity6"
+        android:autoLink="all"
+        android:clickable="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_below="@+id/image5"
+        android:text="Bilgiler"></TextView>
+    <ImageView
+        android:id="@+id/image6"
+        android:src="@drawable/camera"
+        android:layout_width="wrap_content"
+        android:layout_height="301dp"
+        android:layout_below="@id/infocity6"
+        tools:src="@tools:sample/backgrounds/scenic" />
+
+    </LinearLayout>
+</ScrollView>
